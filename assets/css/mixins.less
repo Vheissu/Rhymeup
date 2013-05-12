@@ -1,0 +1,48 @@
+// Mixins
+
+.rounded(@px: 5px) {
+	-moz-border-radius: @px;
+	-webkit-border-radius: @px;
+	border-radius: @px;
+}
+
+.resetlist {
+	line-height: 1;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nocenter {
+	text-align: left;
+}
+
+.inlineblock {
+	display: inline-block;
+	vertical-align: top;
+	*display: inline;
+	zoom: 1;
+}
+
+.fixboxmodel {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+}
+
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.floatleft {
+	display: inline;
+	float: left;
+}
+
+.floatright {
+	display: inline;
+	float: right;
+}
